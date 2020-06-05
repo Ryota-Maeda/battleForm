@@ -10,15 +10,15 @@ if (isset($_POST['player'])) {
   $pcHand = $hands[$key];
 
   if ($player == $pcHand) {
-      $result ='あいこ';
+    $result ='あいこ';
   } elseif ($player == 'グー' && $pcHand == 'チョキ') {
-      $result = '勝ち';
+    $result = '勝ち';
   } elseif ($player == 'チョキ' && $pcHand == 'パー') {
-      $result = '勝ち';
+    $result = '勝ち';
   } elseif ($player == 'パー' && $pcHand == 'グー') {
-      $result = '勝ち';
+    $result = '勝ち';
   } else {
-      $result = '負け';
+    $result = '負け';
   }
 }
 ?>
