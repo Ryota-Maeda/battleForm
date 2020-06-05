@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+h1 {
+  color: red;
+}
